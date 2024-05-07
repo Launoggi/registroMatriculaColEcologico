@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Registro de Matrículas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="myTitle">
+    <h1>SISTEMA DE REGISTRO DE MATRÍCULA</h1>
+    <center><img src="images/escudo.jpeg" width="167" height="150" alt=""></center>
+</div>
+    
+
+<div id="form-container-1" style="display: none;">
+    <!-- Primer formulario -->
+    <h2>Estudiante</h2>
+    <img src="images/estudiante1.png" width="80" height="80" alt="">
+    <form id="form1">
+        <label for="name1">Nombre:</label>
+        <input type="text" id="name1" name="name1" placeholder="Nombre del estudiante" required><br><br>
+        <label for="password1">Contraseña</label>
+        <input type="password" id="password1" name="password1" placeholder="Contraseña" required><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<div id="form-container-2" style="display: none;">
+    <!-- Segundo formulario -->
+    <h2>Administrador</h2>
+    <img src="images/57864.jpg" width=80 height="80" alt="">
+    <form id="form2">
+        <label for="name2">Nombre:</label>
+        <input type="text" id="name2" name="name2" placeholder="Nombre del administrador" required><br><br>
+        <label for="password2">Contraseña</label>
+        <input type="password" id="password2" name="password2" placeholder="Contraseña" required><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<div id="button-users">
+    <button id="show-form-btn-1">Estudiante</button>
+    <button id="show-form-btn-2">Administrador</button>
+    <div id="note">
+        <p>
+            <a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html">Nos acogemos a la Ley 1581 de 2012, sobre la protección de datos.</a>
+        </p>
+    </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
